@@ -1,6 +1,126 @@
 {% comment %}
-  Rago Mosaic Schema
+  Rago Mosaic
 {% endcomment %}
+{%- if section.blocks -%}
+  <div class="rg-mosaic-container">
+    {%- for block in section.blocks -%}
+      {%- if block.type == "tile" -%}
+        {%- if block.settings.hide-text -%}
+          <a href="#" class="rg-ms-tile{% if block.settings.tileSize == "large" %} rg-ms-tile-lg{% elsif block.settings.tileSize == "xl" %} rg-ms-tile-xlg{% endif %}">
+            <div class="rg-ms-underlay">
+              {{ block.settings.image | image_url: width: 500 | image_tag: widths:"1920,1440,1280,1080,860,690,540,380" }}
+            </div>
+            <div class="rg-ms-overlay">
+              <p class="rg-ms-title sr-only">{{ block.settings.heading }}</p>
+            </div>
+          </a>
+        {%- else -%}
+          <div class="rg-ms-tile{% if block.settings.tileSize == "large" %} rg-ms-tile-lg{% elsif block.settings.tileSize == "xl" %} rg-ms-tile-xlg{% endif %}">
+            <div class="rg-ms-underlay">
+              {{ block.settings.image | image_url: width: 500 | image_tag: widths:"1920,1440,1280,1080,860,690,540,380" }}
+            </div>
+            <div class="rg-ms-overlay">
+              <p class="rg-ms-title">{{ block.settings.heading }}</p>
+              <div class="rg-ms-tile-links">
+                <a href="{{ block.settings.link.url }}" class="rg-solid-button rg-ms-secondary"><p>{{ block.settings.buttonText }}</p></a>
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+      {%- elsif block.type == "twoLinkTile" -%}
+      <div class="rg-ms-tile{% if block.settings.tileSize == "large" %} rg-ms-tile-lg{% elsif block.settings.tileSize == "xl" %} rg-ms-tile-xlg{% endif %}">
+        <div class="rg-ms-underlay">
+          {{ block.settings.image | image_url: width: 500 | image_tag: widths:"1920,1440,1280,1080,860,690,540,380" }}
+        </div>
+        <div class="rg-ms-overlay">
+          <p class="rg-ms-title">{{ block.settings.heading }}</p>
+          <div class="rg-ms-tile-links">
+            <a href="{{ block.settings.link.url }}" class="rg-solid-button rg-ms-secondary"><p>{{ block.settings.buttonText }}</p></a>
+            <a href="{{ block.settings.linkTwo.url }}" class="rg-solid-button rg-ms-secondary"><p>{{ block.settings.buttonTwoText }}</p></a>
+          </div>
+        </div>
+      </div>
+      {%- endif -%}
+    {%- endfor -%}
+    {% comment %} <div class="rg-ms-tile">
+      <div class="rg-ms-underlay">
+        <img src="media/AC9905301NA_Outdoor_7.JPG" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title">Best Sellers</p>
+        <div class="rg-ms-tile-links">
+          <a href="index.html" class="rg-solid-button rg-ms-secondary"><p>See Collection</p></a>
+        </div>
+      </div>
+    </div>
+    <div class="rg-ms-tile rg-ms-tile-lg">
+      <div class="rg-ms-underlay">
+        <img src="media/2024+Toyota-Tacoma-Center-Mount-Winch-Front-Bumper-Installed-3.JPG" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title">4th Gen Tacoma Front Bumper</p>
+        <div class="rg-ms-tile-links">
+          <a href="index.html" class="rg-solid-button">Shop Now</a>
+          <a href="index.html" class="rg-solid-button rg-ms-secondary">See All</a>
+        </div>
+      </div>
+    </div>
+    <div class="rg-ms-tile">
+      <div class="rg-ms-underlay">
+        <img src="media/2024+Toyota-Tacoma-Rear-Bumper-Installed-5.jpg" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title">4th Gen Tacoma Rear Bumper</p>
+        <div class="rg-ms-tile-links">
+          <a href="index.html" class="rg-solid-button"><p>Shop Now</p></a>
+          <a href="index.html" class="rg-solid-button rg-ms-secondary"><p>See All</p></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="rg-ms-tile rg-ms-tile-no-text rg-ms-tile-xlg">
+      <div class="rg-ms-underlay">
+        <img src="media/testBanner.jpg" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title sr-only">Universal Bed Rack Cargo Rails</p>
+      </div>
+    </a>
+    <div class="rg-ms-tile rg-ms-tile-lg">
+      <div class="rg-ms-underlay">
+        <img src="media/Universal-Truck-Bed-Rack-Cargo-Rails-w-roof-top-tent-1.JPG" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title">Universal Bed Rack Cargo Rails</p>
+        <div class="rg-ms-tile-links">
+          <a href="index.html" class="rg-solid-button">Shop Now</a>
+          <a href="index.html" class="rg-solid-button rg-ms-secondary">See All</a>
+        </div>
+      </div>
+    </div>
+    <div class="rg-ms-tile">
+      <div class="rg-ms-underlay">
+        <img src="media/2024+Toyota-Tacoma-Roof-Rack-with-10-light-pods-Installed-2.JPG" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title">Newest Products</p>
+        <div class="rg-ms-tile-links">
+          <a href="index.html" class="rg-solid-button rg-ms-secondary"><p>See Collection</p></a>
+        </div>
+      </div>
+    </div>
+    <div class="rg-ms-tile">
+      <div class="rg-ms-underlay">
+        <img src="media/2024-Toyota-Tacoma-Bed-Side-Molle-Panels-Passenger-Side-Installed-Outdoor_4.JPG" alt="">
+      </div>
+      <div class="rg-ms-overlay">
+        <p class="rg-ms-title">Molle Panels</p>
+        <div class="rg-ms-tile-links">
+          <a href="index.html" class="rg-solid-button rg-ms-secondary"><p>See Collection</p></a>
+        </div>
+      </div>
+    </div>
+  </div> {% endcomment %}
+{%- endif -%}
 {% schema %}
 {
   "name": "Rago Mosaic",
@@ -23,20 +143,85 @@
           "label": "Heading"
         },
         {
-          "type": "text",
-          "id": "text-desc",
-          "label": "Text"
-        },
-        {
           "type": "url",
           "id": "link",
           "label": "Link"
+        },
+        {
+          "type":"text",
+          "id":"buttonText",
+          "label":"Button Text"
         },
         {
           "type": "checkbox",
           "id": "hide-text",
           "label": "Hide Text",
           "default": false
+        },
+        {
+          "type": "range",
+          "id": "overlay",
+          "label": "Opacity",
+          "min": 0,
+          "max": 100,
+          "default": 90,
+          "step": 10,
+          "unit": "%"
+        },
+        {
+          "type": "radio",
+          "id": "tileSize",
+          "label": "Tile Size",
+          "options": [
+            {
+              "value": "default",
+              "label": "Default"
+            },
+            {
+              "value": "large",
+              "label": "Large"
+            },
+            {
+              "value": "xl",
+              "label": "Full Width"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "twoLinkTile",
+      "name": "Two Link Tile",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "url",
+          "id": "linkOne",
+          "label": "Link One"
+        },
+        {
+          "type":"text",
+          "id":"buttonText",
+          "label":"Button Text"
+        },
+        {
+          "type": "url",
+          "id": "linkTwo",
+          "label": "Link Two"
+        },
+        {
+          "type":"text",
+          "id":"buttonTwoText",
+          "label":"Button Two Text"
         },
         {
           "type": "range",
