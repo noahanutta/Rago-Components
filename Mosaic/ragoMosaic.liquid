@@ -1,0 +1,80 @@
+{% comment %}
+  Rago Mosaic Schema
+{% endcomment %}
+{% schema %}
+{
+  "name": "Rago Mosaic",
+  "tag": "section",
+  "class": "rg-mosaic",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "tile",
+      "name": "Tile",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "text-desc",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "hide-text",
+          "label": "Hide Text",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "overlay",
+          "label": "Opacity",
+          "min": 0,
+          "max": 100,
+          "default": 90,
+          "step": 10,
+          "unit": "%"
+        },
+        {
+          "type": "radio",
+          "id": "tileSize",
+          "label": "Tile Size",
+          "options": [
+            {
+              "value": "default",
+              "label": "Default"
+            },
+            {
+              "value": "large",
+              "label": "Large"
+            },
+            {
+              "value": "xl",
+              "label": "Full Width"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rago Mosaic",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
