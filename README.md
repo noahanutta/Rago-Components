@@ -4,4 +4,4 @@
 ## Current Components & Status
 |Component|HTML Draft Status|Liquid Status|
 |---|---|---|
-|Mosaic|Draft Completed|In Progress|
+|Mosaic|Draft Completed|Waiting For Approval|
