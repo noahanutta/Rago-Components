@@ -5,3 +5,4 @@
 |Component|HTML Draft Status|Liquid Status|
 |---|---|---|
 |Mosaic|Draft Completed|Waiting For Approval|
+|Total Vehicle Solutions|Not Started|Not Started|
