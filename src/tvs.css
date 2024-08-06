@@ -1,0 +1,325 @@
+.tvs{
+  background-color: var(--rg-black);
+  color:var(--rg-white);
+}
+.tvs-container{
+  position: relative;
+}
+.tvs-header{
+  position:absolute;
+  top:5svh;
+  left:0;
+  width: 100%;
+  padding:0 1rem;
+  box-sizing:border-box;
+  font-family: 'Erbaum', sans-serif;
+  z-index: 300;
+}
+.tvs-header .content{
+  background-color: var(--rg-black);
+  border:3px solid var(--rg-blue);
+  border-radius: 5px;
+  padding: 5px 1rem;
+  width: fit-content;
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  align-items: center;
+  margin:0 auto;
+}
+.tvs-header h2, .tvs-header p{
+  margin:0;
+}
+.tvs-header h2{
+  text-transform: uppercase;
+  font-size:clamp(1.5rem, 3.2vw, 3rem);
+}
+.tvs-header p{
+  text-transform: uppercase;
+  font-size:clamp(1.1rem, 1.5vw, 2rem);
+  color: var(--rg-blue);
+}
+.tvs-vehicle-container{
+  position:relative;
+  padding-top: 10svh;
+  z-index: 1;
+  overflow: hidden;
+}
+.tvs-vehicle-container .underlay{
+  position: absolute;
+  background-color:var(--rg-black);
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.tvs-vehicle-container .overlay{
+  max-width: 1400px;
+  margin:0 auto;
+}
+.tvs-vehicle-container .underlay img:not(.ov-glow){
+  display: block;
+  mix-blend-mode: lighten;
+  opacity:0.5;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position:top center;  
+}
+.tvs-vehicle-container .underlay img.ov-glow{
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  filter: blur(3px);
+  mix-blend-mode:plus-lighter;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position:top center;
+  animation: flicker 5s infinite ;
+}
+@keyframes flicker {
+	0% {
+		opacity: 1;
+	}
+	5% {
+		opacity: 0.5;
+	}
+	10% {
+		opacity: 0.6;
+	}
+	15% {
+		opacity: 0.85;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	30% {
+		opacity: 1;
+	}
+	35% {
+		opacity: 0.1;
+	}
+	40% {
+		opacity: 0.25;
+	}
+	45% {
+		opacity: 0.5;
+	}
+	60% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0.85;
+	}
+	80% {
+		opacity: 0.4;
+	}
+	90% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.tvs-vehicle-container .overlay{
+  position: relative;
+  z-index: 20;
+}
+.tvs-vehicle-container .overlay .tvs-overlay-vehicle{
+  position:relative;
+  
+}
+.tvs-vehicle-container .overlay .tvs-overlay-vehicle img{
+  width: 100%;
+  max-height:50svh;
+  object-fit: contain;
+  filter: drop-shadow(13px 17px 18px rgba(0,0,0,0.5));
+}
+/* .tvs-selector{
+  background:#231f20;
+  border-top: 4px solid var(--rg-orange);
+  border-bottom: 4px solid var(--rg-orange);
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  position: relative;
+  z-index:0;
+}
+.tvs-selector::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image:url("media/grain.gif");
+  background-size:inherit;
+  z-index: 90;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.tvs-selector .tvs-product{
+  max-width: 200px;
+  padding: 1rem;
+  cursor:pointer;
+  position: relative;
+}
+.tvs-selector .tvs-product img{
+  position: relative;
+  width:  100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  display: block;
+  filter: contrast(0) brightness(150%);
+  transition: all 250ms;
+}
+.tvs-selector .tvs-product:hover img{
+  filter: contrast(0) brightness(190%);
+}
+.tvs-selector .tvs-product .product-content{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  max-height:0px;
+  overflow:hidden;
+  color: var(--rg-black);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tvs-selector .tvs-product .product-content p{
+  margin: 0;
+}
+.tvs-selector .tvs-product .product-content a{
+  margin: 0;
+  display: block;
+}
+.tvs-selector .tvs-product.active{
+  background:white;
+}
+.tvs-selector .tvs-product.active .product-content{
+  max-height: 200px;
+}
+.tvs-selector .tvs-product.active .product-content img{
+  filter:none;
+} */
+.tvs-selector-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-items: center;
+  margin-top:-2rem;
+  padding-bottom: 5svh;
+  z-index: 40;
+}
+.tvs-selector-container .tvs-product{
+  background-color: white;
+  border: 4px solid var(--rg-orange);
+  border-left:none;
+  border-radius:0 20px 20px 0;
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  padding: 1rem;
+}
+.tvs-product .product-content{
+  display: block;
+  color: var(--rg-black);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+.tvs-product .product-content *{
+  margin:0;
+}
+.tvs-product .product-content .product-title{
+  color: var(--rg-orange);
+  font-weight:800;
+  font-family:'Erbaum', sans-serif;
+  font-size:1.75rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--rg-black);
+}
+.tvs-product .product-content .subtitle{
+  color: var(--rg-black);
+  font-weight:400;
+  font-family:'Erbaum', sans-serif;
+  font-size:1.25rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--rg-black);
+}
+.tvs-product .product-content .price{
+  color:var(--rg-black);
+  line-height: 1.5;
+  font-weight:lighter;
+  font-size:1.2rem;
+}
+.tvs-selector-container .tvs-product img{
+  width: 70%;
+  margin: 0 auto;
+  object-fit: contain;
+  aspect-ratio: 4/2;
+}
+.tvs-selector{
+  visibility: visible !important;
+  background:#231f20;
+  border-top: 4px solid var(--rg-orange);
+  border-bottom: 4px solid var(--rg-orange);
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  position: relative;
+  z-index:0;
+  overflow: hidden;
+}
+.tvs-selector::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image:url("media/grain.gif");
+  background-size:inherit;
+  z-index: 10;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.tvs-selector img{
+  position: relative;
+  height: 150px;
+  padding: 20px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  display: block;
+  z-index:20;
+  filter: contrast(0) brightness(110%);
+  cursor:pointer;
+  transition: all 250ms;
+}
+.tvs-selector img:hover{
+  filter: contrast(0) brightness(190%);
+}
+.tvs-selector img.active{
+  filter: contrast(0) brightness(200%) drop-shadow(0px 0px 15px var(--rg-orange));
+}
+.tvs-selector .splide__track{
+  position: relative;
+  z-index:20;
+}

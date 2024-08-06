@@ -1,0 +1,17 @@
+{
+  "name": "Noah Anutta",
+  "description": "Building out Rago Components",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "normalize.css": "^8.0.1"
+  }
+}
