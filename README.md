@@ -8,4 +8,9 @@
 |Total Vehicle Solutions|In Progress|Not Started|
 
 ## To Do:
- For each product, there needs to be the coordinate data-objects and the image indicator overlay.
+ 1. Add To Cart Button
+ 2. Product indicators need to be clickable
+
+### Far Future:
+ 1. Potentially include front-angle image as well.
+ 2. 3D Rendered
