@@ -5,4 +5,7 @@
 |Component|HTML Draft Status|Liquid Status|
 |---|---|---|
 |Mosaic|Draft Completed|Waiting For Approval|
-|Total Vehicle Solutions|Not Started|Not Started|
+|Total Vehicle Solutions|In Progress|Not Started|
+
+## To Do:
+ For each product, there needs to be the coordinate data-objects and the image indicator overlay.
