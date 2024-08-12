@@ -22,5 +22,26 @@ document.addEventListener('DOMContentLoaded', function () {
     slide.slide.querySelector('img').classList.add('active');
     productLinks[slide.index].classList.add('active');
     productPointers[slide.index].classList.add('active');
-  })
+  });
+  productPointers.forEach(
+    (pointer,index)=>{
+      pointer.addEventListener('click',()=>{
+        productPointers.forEach((p)=>{p.classList.remove('active')});
+        pointer.classList.add('active');
+        splide.go(index);
+        splideImgs.forEach(
+          (s,ind)=>{
+            s.classList.remove("active");
+            productLinks[ind].classList.remove('active');
+            productPointers[ind].classList.remove('active');
+            if(ind == index){
+              s.classList.add("active");
+            }
+          }
+        );
+        productLinks[index].classList.add('active');
+        productPointers[index].classList.add('active');
+      })
+    }
+  );
 });
