@@ -135,15 +135,24 @@
   transform:translate(-50%,-50%);
   background-color: #00b5f777;
   border: 2px solid #00b7f788;
-  padding: 15px;
+  width: 1.5em;
+  height:1.5em;
+  box-sizing:border-box;
   border-radius: 50%;
   aspect-ratio:1/1;
   display: flex;
-  line-height: 0.75;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+}
+.tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker .indicator{
+  margin: 0;
+  padding: 0;
+  font-family: 'Erbaum';
+  font-weight: 200;
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker.active{
   background-color: #f6511d77;
@@ -315,6 +324,9 @@
     height:auto;
     padding:5px;
   }
+  .tvs-selector img:hover:not(.active){
+    filter: contrast(0) brightness(110%);
+  }
   .tvs-selector-container .tvs-product{
     border-top:none;
     border-right:none;
@@ -331,8 +343,5 @@
   .tvs-selector-container .tvs-product img{
     grid-row:span 3;
     width:100%;
-  }
-  .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker{
-    padding: 10px;
   }
 }

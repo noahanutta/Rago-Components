@@ -8,9 +8,6 @@
 |Total Vehicle Solutions|In Progress|Not Started|
 
 ## To Do:
- 1. Add To Cart Button
- 2. Product indicators need to be clickable
-
-### Far Future:
- 1. Potentially include front-angle image as well.
- 2. 3D Rendered
+ 1. Add to Cart Button.
+ 2. Restructure JS query selectors and modify arrays.
+ 3. Translatable 'vehicle-container'.
