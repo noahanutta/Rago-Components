@@ -33,9 +33,11 @@
 .tvs-header h2{
   text-transform: uppercase;
   font-size:clamp(1.5rem, 3.2vw, 2.3rem);
+  text-align: center;
 }
 .tvs-header p{
   text-transform: uppercase;
+  text-align: center;
   font-size:clamp(1.1rem, 1.5vw, 1.8rem);
   color: var(--rg-blue);
 }
@@ -63,6 +65,9 @@
   height: 100%;
   object-fit: cover;
   object-position:top center;  
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 .tvs-vehicle-container .underlay img.ov-glow{
   display: block;
@@ -76,6 +81,9 @@
   object-fit: cover;
   object-position:top center;
   animation: flicker 5s infinite ;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 @keyframes flicker {
 	0% {opacity: 0.8}
@@ -110,6 +118,9 @@
   max-height:55svh;
   object-fit: contain;
   filter: drop-shadow(13px 17px 18px rgba(0,0,0,0.5));
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers{
   position: absolute;
@@ -130,6 +141,9 @@
   display: flex;
   line-height: 0.75;
   cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker.active{
 
@@ -172,22 +186,29 @@
   margin:0;
 }
 .tvs-product .product-content .product-title{
+  position: relative;
   color: var(--rg-orange);
-  font-weight:800;
+  font-weight:500;
   font-family:'Erbaum', sans-serif;
-  font-size:1.75rem;
-  line-height: 1.5;
+  font-size:clamp(1.4rem, 2vw, 1.75rem);
   text-transform: uppercase;
-  border-bottom: 2px solid var(--rg-black);
 }
 .tvs-product .product-content .subtitle{
+  position: relative;
   color: var(--rg-black);
   font-weight:400;
   font-family:'Erbaum', sans-serif;
   font-size:1.25rem;
-  line-height: 1.5;
   text-transform: uppercase;
-  border-bottom: 2px solid var(--rg-black);
+}
+.tvs-product .product-content .product-title::after, .tvs-product .product-content .subtitle::after{
+  content:'';
+  position:absolute;
+  bottom:-4px;
+  left:0;
+  width:100%;
+  height:2px;
+  background:var(--rg-black);
 }
 .tvs-product .product-content .price{
   color:var(--rg-black);
@@ -227,7 +248,7 @@
   background-size:inherit;
   z-index: 10;
   mix-blend-mode: overlay;
-  opacity: 0.5;
+  opacity: 0.3;
   pointer-events: none;
 }
 .tvs-selector img{
@@ -251,4 +272,71 @@
 .tvs-selector .splide__track{
   position: relative;
   z-index:20;
+}
+@media screen and (max-width: 940px){
+  .tvs-selector-container{
+    margin-top:0;
+  }
+}
+@media screen and (max-width: 800px){
+  .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker{
+    padding:15px;
+  }
+  .tvs-selector-container .tvs-product{
+    max-width: 300;
+  }
+  .tvs-selector img{
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .tvs-header{
+    position: relative;
+    top: unset;
+    left: unset;
+    padding: 0;
+  }
+  .tvs-header .content {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    flex-direction: column;
+  }
+  .tvs-vehicle-container{
+    padding:3svh 0 3svh 0;
+  }
+  .tvs-selector-container{
+    flex-direction: column-reverse;
+    padding-bottom:unset;
+  }
+  .tvs-selector img{
+    width:30vw;
+    height:auto;
+    padding:5px;
+  }
+  .tvs-selector-container .tvs-product{
+    border-top:none;
+    border-right:none;
+    border-radius:0;
+    max-width:unset;
+    padding:unset
+  }
+  .tvs-product .product-content.active{
+    padding:0.5rem;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    column-gap: 0.5rem;
+  }
+  .tvs-selector-container .tvs-product img{
+    grid-row:span 3;
+    width:100%;
+  }
+  .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker{
+    padding: 10px;
+  }
 }

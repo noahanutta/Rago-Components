@@ -37,11 +37,13 @@
 
 .tvs-header h2 {
   text-transform: uppercase;
+  text-align: center;
   font-size: clamp(1.5rem, 3.2vw, 2.3rem);
 }
 
 .tvs-header p {
   text-transform: uppercase;
+  text-align: center;
   color: var(--rg-blue);
   font-size: clamp(1.1rem, 1.5vw, 1.8rem);
 }
@@ -68,6 +70,8 @@
   opacity: .3;
   object-fit: cover;
   object-position: top center;
+  -webkit-user-select: none;
+  user-select: none;
   width: 100%;
   height: 100%;
   display: block;
@@ -78,6 +82,8 @@
   mix-blend-mode: plus-lighter;
   object-fit: cover;
   object-position: top center;
+  -webkit-user-select: none;
+  user-select: none;
   width: 100%;
   height: 100%;
   animation: 5s infinite flicker;
@@ -161,6 +167,8 @@
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle img {
   object-fit: contain;
   filter: drop-shadow(13px 17px 18px #00000080);
+  -webkit-user-select: none;
+  user-select: none;
   width: 100%;
   max-height: 55svh;
   display: block;
@@ -177,6 +185,8 @@
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker {
   aspect-ratio: 1;
   cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
   background-color: #00b5f777;
   border: 2px solid #00b7f788;
   border-radius: 50%;
@@ -233,21 +243,29 @@
 .tvs-product .product-content .product-title {
   color: var(--rg-orange);
   text-transform: uppercase;
-  border-bottom: 2px solid var(--rg-black);
   font-family: Erbaum, sans-serif;
-  font-size: 1.75rem;
-  font-weight: 800;
-  line-height: 1.5;
+  font-size: clamp(1.4rem, 2vw, 1.75rem);
+  font-weight: 500;
+  position: relative;
 }
 
 .tvs-product .product-content .subtitle {
   color: var(--rg-black);
   text-transform: uppercase;
-  border-bottom: 2px solid var(--rg-black);
   font-family: Erbaum, sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
-  line-height: 1.5;
+  position: relative;
+}
+
+.tvs-product .product-content .product-title:after, .tvs-product .product-content .subtitle:after {
+  content: "";
+  background: var(--rg-black);
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
 
 .tvs-product .product-content .price {
@@ -285,7 +303,7 @@
   background-size: inherit;
   z-index: 10;
   mix-blend-mode: overlay;
-  opacity: .5;
+  opacity: .3;
   pointer-events: none;
   width: 100%;
   height: 100%;
@@ -318,5 +336,84 @@
 .tvs-selector .splide__track {
   z-index: 20;
   position: relative;
+}
+
+@media screen and (width <= 940px) {
+  .tvs-selector-container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (width <= 800px) {
+  .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker {
+    padding: 15px;
+  }
+
+  .tvs-selector-container .tvs-product {
+    max-width: 300px;
+  }
+
+  .tvs-selector img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (width <= 540px) {
+  .tvs-header {
+    top: unset;
+    left: unset;
+    padding: 0;
+    position: relative;
+  }
+
+  .tvs-header .content {
+    box-sizing: border-box;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .tvs-vehicle-container {
+    padding: 3svh 0;
+  }
+
+  .tvs-selector-container {
+    padding-bottom: unset;
+    flex-direction: column-reverse;
+  }
+
+  .tvs-selector img {
+    width: 30vw;
+    height: auto;
+    padding: 5px;
+  }
+
+  .tvs-selector-container .tvs-product {
+    max-width: unset;
+    padding: unset;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+  }
+
+  .tvs-product .product-content.active {
+    grid-template-columns: 1fr 2fr;
+    column-gap: .5rem;
+    padding: .5rem;
+    display: grid;
+  }
+
+  .tvs-selector-container .tvs-product img {
+    grid-row: span 3;
+    width: 100%;
+  }
+
+  .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker {
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=index.4d7e7290.css.map */
