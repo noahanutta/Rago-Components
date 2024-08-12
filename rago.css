@@ -12,7 +12,7 @@
   --rg-boxShadow: -1px 2px 4px #0000004d;
   --rg-boxShadow-hover: -2px 3px 7px #000000b3;
   font-size: 15pt;
-  font-family: 'New Frank', sans-serif;
+  font-family: 'new-frank', sans-serif;
 }
 body{
   margin: 0 auto;
