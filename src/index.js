@@ -2,11 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var splideImgs = document.querySelectorAll('.splide img');
   var productLinks = document.querySelectorAll('.tvs-product .product-content');
   var productPointers = document.querySelectorAll('.tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker');
-  /* TO DO: 
-    Add 'autoplay' & make it so all 
-    the style updates happen on the 
-    'moved' event.
-  */
   var splide = new Splide('.splide', {
     arrows: false,
     autoplay:true,
