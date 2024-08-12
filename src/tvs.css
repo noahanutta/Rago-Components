@@ -131,11 +131,11 @@
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker{
   position:absolute;
-  font-size: clamp(1.4rem,2vw,2rem);
+  font-size: clamp(1.4rem,2vw,1.7rem);
   transform:translate(-50%,-50%);
   background-color: #00b5f777;
   border: 2px solid #00b7f788;
-  padding: 20px;
+  padding: 15px;
   border-radius: 50%;
   aspect-ratio:1/1;
   display: flex;
@@ -146,7 +146,6 @@
   -moz-user-select: none;
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker.active{
-
   background-color: #f6511d77;
   border: 2px solid #f6511d88;
 }
@@ -279,9 +278,6 @@
   }
 }
 @media screen and (max-width: 800px){
-  .tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker{
-    padding:15px;
-  }
   .tvs-selector-container .tvs-product{
     max-width: 300;
   }
