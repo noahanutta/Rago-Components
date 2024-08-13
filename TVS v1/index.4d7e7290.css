@@ -1,3 +1,7 @@
+.tvs, .tvs * {
+  box-sizing: border-box;
+}
+
 .tvs {
   background-color: var(--rg-black);
   color: var(--rg-white);
@@ -254,7 +258,7 @@
   color: var(--rg-orange);
   text-transform: uppercase;
   font-family: Erbaum, sans-serif;
-  font-size: clamp(1.4rem, 2vw, 1.75rem);
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
   font-weight: 500;
   position: relative;
 }
@@ -276,6 +280,41 @@
   position: absolute;
   bottom: -4px;
   left: 0;
+}
+
+.tvs-product .product-content .price-and-cart {
+  justify-content: center;
+  gap: .5rem;
+  align-items: flext-start;
+  flex-flow: column;
+  padding: 10px 0;
+  display: flex;
+}
+
+.tvs-product .product-content .rg-comp-product-submit-button {
+  background: var(--rg-blue);
+  color: var(--rg-white);
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 15pt;
+  font-weight: bold;
+  line-height: 1;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.tvs-product .product-content .rg-comp-product-submit-button:hover {
+  background: var(--rg-orange);
+  transition: all .2s;
 }
 
 .tvs-product .product-content .price {
@@ -328,7 +367,7 @@
   z-index: 20;
   filter: contrast(0) brightness(110%);
   cursor: pointer;
-  height: 120px;
+  height: calc(4vw + 90px);
   padding: 0 20px;
   transition: all .25s;
   display: block;
@@ -412,7 +451,7 @@
 
   .tvs-product .product-content.active {
     grid-template-columns: 1fr 2fr;
-    column-gap: .5rem;
+    column-gap: 1rem;
     padding: .5rem;
     display: grid;
   }

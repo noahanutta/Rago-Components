@@ -590,6 +590,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var productPointers = document.querySelectorAll(".tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker");
     var splide = new Splide(".splide", {
         arrows: false,
+        autoplay: true,
+        focus: "center",
+        trimSpace: false,
+        interval: 4000,
         autoWidth: true,
         gap: 10,
         rewind: true,
@@ -598,6 +602,16 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     splide.mount();
     splide.on("click", function(slide) {
+        splideImgs.forEach((s, index)=>{
+            s.classList.remove("active");
+            productLinks[index].classList.remove("active");
+            productPointers[index].classList.remove("active");
+        });
+        slide.slide.querySelector("img").classList.add("active");
+        productLinks[slide.index].classList.add("active");
+        productPointers[slide.index].classList.add("active");
+    });
+    splide.on("active", function(slide) {
         splideImgs.forEach((s, index)=>{
             s.classList.remove("active");
             productLinks[index].classList.remove("active");
