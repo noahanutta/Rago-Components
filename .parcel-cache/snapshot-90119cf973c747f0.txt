@@ -1,8 +1,4 @@
 6413
-65C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.html133680605683539975 0
-67C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.html133680503573297436 0
-82C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\writer.cpp133673476692600199 0
-81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\windows.c133673476692286409 0
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_define_enumerable_properties.mjs133673476695032593 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\plugins\convertTransform.js133673476691753234 0
 131C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\ordered-binary\.nyc_output\5b6bd808-0399-4ee6-9395-344688761dfa.json133673476685817005 0
@@ -74,11 +70,11 @@
 110C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\domhandler\package.json133673476685827007 0
 106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\lib\utils\url.js133673476694098106 0
 76C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\utility-types133673476686492959 1
-138C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-child.js133673476692489289 0
-58C:\Users\nanutta\Documents\GitHub\Rago-Components\rago.css133679701402058773 0
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\ansi-styles133673476685194069 1
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\zstd.js133673476697524687 0
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\version.cjs133673476693051143 0
+138C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-child.js133673476692489289 0
+58C:\Users\nanutta\Documents\GitHub\Rago-Components\rago.css133679701402058773 0
 69C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@lezer133673476677659247 1
 119C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\parseHtml\parseHtml.ts133673490662413886 0
 103C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\dependencies\v8\v8-fast-api-calls.h133673476692971157 0
@@ -268,6 +264,10 @@
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\entities\lib133673476690615298 1
 77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.e11c6efd.css.map133680543873085875 0
 79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.e11c6efd.css.map133679725245582578 0
+65C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.html133680605683539975 0
+67C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.html133680503573297436 0
+82C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\writer.cpp133673476692600199 0
+81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\windows.c133673476692286409 0
 93C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\lexer\generic.cjs133673476691592292 0
 64C:\Users\nanutta\Documents\GitHub\Rago-Components\src\index.html133680605683346843 0
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\ordered-binary\package.json133673476686129417 0
@@ -1697,9 +1697,9 @@
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_class_static_private_field_spec_get.mjs133673476694972594 0
 79C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\posthtml\license133673476684338925 0
 99C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\.bin\download-msgpackr-prebuilds.cmd133673476698028104 0
-104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\measure133673490662246471 1
 108C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\cjs\utils\List.cjs133673476692095113 0
 112C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\lib\syntax\node\Nth.js133673476693774631 0
+104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\measure133673490662246471 1
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\atrule\page.cjs133673476692529314 0
 101C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\dist\types\index.d.ts133673490662061683 0
 84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\posthtml\package.json133673476685093481 0
@@ -2728,11 +2728,11 @@
 137C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-node-modules133673476686612959 0
 84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\escalade\package.json133673476685133484 0
 110C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\loading-lazy-attr.js133673476695787069 0
-97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-what\lib\commonjs\stringify.js133673476685717011 0
-111C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\css-letter-spacing.js133673476693543902 0
 76C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\escalade\sync133673476685897871 1
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\WS.js133673476697474666 0
 88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\scope133673476693031164 1
+97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-what\lib\commonjs\stringify.js133673476685717011 0
+111C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\css-letter-spacing.js133673476693543902 0
 112C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\.bin\svgo.cmd133673476698028104 0
 123C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.js133673476684661276 0
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\lib\public133673476693303010 1
