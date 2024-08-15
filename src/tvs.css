@@ -107,17 +107,87 @@
 .tvs-vehicle-container .overlay{
   position: relative;
   z-index: 20;
-  max-width: 1400px;
+  width: 100%;
+  height: 100%;
   margin:0 auto;
+  min-height: 55svh;
+  max-height: 55svh;
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle{
-  position:relative;
-  width:fit-content;
-  margin: 0 auto;
+  position:absolute;
+  top:0;
+  height: 100%;
+  max-width:100%;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: contrast(100%) brightness(100%) blur(0px);
+  z-index: 25;
+}
+.tvs-vehicle-container .overlay .tvs-overlay-vehicle:not(.active){
+  transform: translateX(-10%) translateY(-40%) scale(0.4);
+  filter: contrast(85%) brightness(70%) blur(2px);
+  z-index:21;
+  animation: tvsSwapOut 1s;
+}
+.tvs-vehicle-container .overlay .tvs-overlay-vehicle.active{
+  animation: tvsSwapIn 1s;
+}
+@keyframes tvsSwapIn{
+  from{
+    transform: translateX(-10%) translateY(-40%) scale(0.4);
+    filter: contrast(85%) brightness(70%) blur(2px);
+    z-index:25;
+    animation-timing-function: ease-in;
+  }
+  50%{
+    transform: translateX(20%) translateY(-25%) scale(.75,0.6) skewX(5deg);
+    animation-timing-function: ease-out;
+  }
+  to{
+    transform: translateX(-50%);
+    filter: contrast(100%) brightness(100%) blur(0px);
+    z-index: 25;
+  }
+}
+@keyframes tvsSwapOut{
+  from{
+    transform: translateX(-50%);
+    filter: contrast(100%) brightness(100%) blur(0px);
+    z-index: 21;
+    animation-timing-function: ease-in;
+  }
+  50%{
+    transform: translateX(-120%) translateY(-25%) scale(.85,0.75) skewX(-5deg);
+    animation-timing-function: ease-out;
+  }
+  to{
+    transform: translateX(-10%) translateY(-40%) scale(0.4);
+    filter: contrast(85%) brightness(70%) blur(2px);
+    z-index:21;
+  }
+}
+.tvs-overlay-vehicle-swap {
+  pointer-events: none;
+  z-index: 50;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: flex-start;
+  align-items: center;
+}
+.tvs-overlay-vehicle-swap .swap-button{
+  cursor: pointer;
+  padding:1rem;
+  margin:0;
+  pointer-events: all;
 }
 .tvs-vehicle-container .overlay .tvs-overlay-vehicle img{
   display: block;
-  width: 100%;
   max-height:55svh;
   object-fit: contain;
   filter: drop-shadow(13px 17px 18px rgba(0,0,0,0.5));

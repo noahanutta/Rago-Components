@@ -2,6 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
   var splideImgs = document.querySelectorAll('.splide img');
   var productLinks = document.querySelectorAll('.tvs-product .product-content');
   var productPointers = document.querySelectorAll('.tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker');
+  var vehicleContainers = document.querySelectorAll(".tvs-vehicle-container .tvs-overlay-vehicle");
+  var vehicleSwapper = document.querySelector(".tvs-overlay-vehicle-swap .swap-button");
+  var currentIsInit = true;
+  var vehicleTransition = false;
   var splide = new Splide('.splide', {
     arrows: false,
     autoplay:true,
@@ -24,6 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     )
     slide.slide.querySelector('img').classList.add('active');
+    if(slide.slide.dataset.vhposition == "front" && currentIsInit){
+      vehicleSwap();
+    }else if(slide.slide.dataset.vhposition == "rear" && !currentIsInit){
+      vehicleSwap();
+    }
     productLinks[slide.index].classList.add('active');
     productPointers[slide.index].classList.add('active');
   });
@@ -36,6 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     )
     slide.slide.querySelector('img').classList.add('active');
+    if(slide.slide.dataset.vhposition == "front" && currentIsInit){
+      vehicleSwap();
+    }else if(slide.slide.dataset.vhposition == "rear" && !currentIsInit){
+      vehicleSwap();
+    }
     productLinks[slide.index].classList.add('active');
     productPointers[slide.index].classList.add('active');
   });
@@ -60,4 +74,23 @@ document.addEventListener('DOMContentLoaded', function () {
       })
     }
   );
+  vehicleSwapper.addEventListener('click', ()=>{
+    if(!vehicleTransition){
+      vehicleSwap();
+    }
+  });
+  function vehicleSwap(){
+    currentIsInit = !currentIsInit;
+    vehicleContainers.forEach(
+      (container)=>{
+        if(container.classList.contains("active")){
+          container.classList.remove("active");
+        }else{
+          container.classList.add("active");
+        }
+      }
+    );
+    vehicleTransition = true;
+    setTimeout(()=>{vehicleTransition=false;},1001);
+  }
 });
