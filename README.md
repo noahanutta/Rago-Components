@@ -5,9 +5,4 @@
 |Component|HTML Draft Status|Liquid Status|
 |---|---|---|
 |Mosaic|Draft Completed|Waiting For Approval|
-|Total Vehicle Solutions|In Progress|Not Started|
-
-## To Do:
- 1. Add to Cart Button.
- 2. Restructure JS query selectors and modify arrays.
- 3. Translatable 'vehicle-container'.
+|Total Vehicle Solutions|V1 & V2 Completed|Not Started|

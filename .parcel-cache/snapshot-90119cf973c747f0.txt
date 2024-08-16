@@ -1,8 +1,4 @@
-6417
-65C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.html133683040074932147 0
-67C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.html133680503573297436 0
-82C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\writer.cpp133673476692600199 0
-81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\windows.c133673476692286409 0
+6437
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_define_enumerable_properties.mjs133673476695032593 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\plugins\convertTransform.js133673476691753234 0
 131C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\ordered-binary\.nyc_output\5b6bd808-0399-4ee6-9395-344688761dfa.json133673476685817005 0
@@ -18,7 +14,7 @@
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\semver\classes\range.js133673476690999484 0
 105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\utils\create-custom-error.cjs133673476690181219 0
 84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\ordered-binary\assets133673476686270272 1
-92C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\R6702350901NA_rearbumper.d62d0542.png133683027192018660 0
+92C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\R6702350901NA_rearbumper.d62d0542.png133683048235816557 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\syntax\node\Comment.js133673476693242144 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\R6702350901NA_rearbumper.d62d0542.png133679725245502578 0
 126C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133673476690291211 0
@@ -35,7 +31,7 @@
 67C:\Users\nanutta\Documents\GitHub\Rago-Components\package-lock.json133673524911997303 0
 56C:\Users\nanutta\Documents\GitHub\Rago-Components\Mosaic133663980233549769 1
 80C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@msgpackr-extract133673524911667305 1
-54C:\Users\nanutta\Documents\GitHub\Rago-Components\dist133683040276352107 1
+54C:\Users\nanutta\Documents\GitHub\Rago-Components\dist133683048235887370 1
 56C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1133680512862244403 1
 111C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\domhandler\lib\node.d.ts133673476686622952 0
 72C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\.bin\svgo133673476698038105 0
@@ -54,11 +50,11 @@
 62C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules133673524911667305 1
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\grid.c0eaaf59.svg133679676086897747 0
 112C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\math\clamp\clamp.ts133673490661050729 0
-94C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\F6603630801NA_Front Bumper.4a1ac18a.png133683027192028660 0
+94C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\F6603630801NA_Front Bumper.4a1ac18a.png133683048235816557 0
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@lezer\common\README.md133673476685917877 0
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\F6603630801NA_Front Bumper.4a1ac18a.png133679725245502578 0
 108C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\css-placeholder.js133673476693785459 0
-103C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\AC660650103_roof rack- light pocket.29132f7c.png133683027192038663 0
+103C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\AC660650103_roof rack- light pocket.29132f7c.png133683048235816557 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\test\Graph.test.js133673476686612959 0
 105C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\AC660650103_roof rack- light pocket.29132f7c.png133679725245492567 0
 110C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\domhandler\package.json133673476685827007 0
@@ -88,6 +84,9 @@
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\supports-color\readme.md133673476685234064 0
 69C:\Users\nanutta\Documents\GitHub\Rago-Components\src\media\grain.gif133673595329155150 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\plugins\removeScriptElement.js133673476692307416 0
+137C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeRasterImages.js133673476691743209 0
+88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\posthtml-render\readme.md133673476685426211 0
+88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\dependencies\lz4\lib133673476693202144 1
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\cjs\tokenizer\index.cjs133673476691984191 0
 84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\picomatch\lib\scan.js133673476685627004 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\alt-sa.js133673476690413626 0
@@ -96,7 +95,7 @@
 85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\type-fest\package.json133673476684540417 0
 125C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages133673476685737006 1
 83C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\lib\svgo\coa.js133673476690736311 0
-59C:\Users\nanutta\Documents\GitHub\Rago-Components\README.md133679622428849979 0
+59C:\Users\nanutta\Documents\GitHub\Rago-Components\README.md133683047174586287 0
 67C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc133673524911667305 1
 117C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\import.js133673476693523901 0
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\source-map-js\lib\mapping-list.js133673476685536216 0
@@ -105,7 +104,7 @@
 72C:\Users\nanutta\Documents\GitHub\Rago-Components\Total Vehicle Solution133673474375612433 1
 119C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\same-site-cookie-attribute.js133673476696469363 0
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\src\media\4th-gen-tacoma-front-2.png133680540128475133 0
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.843dac01.css133683027192270915 0
+73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.843dac01.css133683048235806542 0
 121C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\LICENSE133673476684389639 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.843dac01.css133679725245684171 0
 124C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\mdn-css-backdrop-pseudo-element.js133673476695857047 0
@@ -121,7 +120,7 @@
 107C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\transformer-html\lib\dependencies.js133673476684631275 0
 82C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\callsites\readme.md133673476685234064 0
 66C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS-V2-Notes.png133679759597355204 0
-84C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\4th-gen-tacoma-1.b4010c2e.png133683027192088668 0
+84C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\4th-gen-tacoma-1.b4010c2e.png133683048234958293 0
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\4th-gen-tacoma-1.b4010c2e.png133679725245604172 0
 109C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\cjs\lexer\match.cjs133673476692145106 0
 102C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\packager-css\src\CSSPackager.js133673476684992841 0
@@ -135,12 +134,12 @@
 132C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\procedure.d.ts133673476690938500 0
 69C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\parcel133673476685867006 1
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\to-regex-range\package.json133673476684298927 0
-72C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4ece0dc4.js133683027192120175 0
+72C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4ece0dc4.js133683048235816557 0
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.4ece0dc4.js133679725245572580 0
 99C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\config\lexer.cjs133673476692175106 0
 83C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\semver\ranges\ltr.js133673476690453616 0
 106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\_\_inherits_loose\package.json133673476694198995 0
-94C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\AC660640103_roofrack-solid.13566405.png133683027192098661 0
+94C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\AC660640103_roofrack-solid.13566405.png133683048235806542 0
 102C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\lib\replace\property\background.js133673476691803216 0
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\AC660640103_roofrack-solid.13566405.png133679725245502578 0
 119C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure133673476691480375 1
@@ -148,14 +147,14 @@
 114C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\cjs\_tagged_template_literal_loose.cjs133673476692175106 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\plugins\sortDefsChildren.js133673476692539292 0
 133C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.js.map133673476690706326 0
-93C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\F6703651001NA_FrontBumper.26a25fd3.png133683027192048675 0
+93C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\F6703651001NA_FrontBumper.26a25fd3.png133683048235816557 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\F6703651001NA_FrontBumper.26a25fd3.png133679725245582578 0
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\grain.eadf3dff.gif133683027192038663 0
+73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\grain.eadf3dff.gif133683048235876526 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\grain.eadf3dff.gif133679725245522575 0
 88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\lib\general.js133673476686331131 0
 85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\color-convert\index.js133673476685083476 0
 105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\utility-types\dist\functional-helpers.d.ts133673476689766516 0
-72C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\grid.c72eeaad.png133683027192098661 0
+72C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\grid.c72eeaad.png133683048235816557 0
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\grid.c72eeaad.png133679725245502578 0
 91C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\semver\classes\comparator.js133673476685566214 0
 91C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\nth-check\lib\esm\parse.d.ts133673476690544520 0
@@ -166,7 +165,7 @@
 100C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\dependencies\lz4\lib\dll\example133673476693313014 1
 71C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\domutils133673476690009957 1
 106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\node_modules\node-addon-api\LICENSE.md133673476690191218 0
-77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.843dac01.css.map133683027192311915 0
+77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.843dac01.css.map133683048235856552 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\syntax\config\lexer.js133673476693754638 0
 79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.843dac01.css.map133679725245704183 0
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\esm\_unsupported_iterable_to_array.js133673476693483903 0
@@ -180,7 +179,7 @@
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\semver\ranges\intersects.js133673476690191218 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\EC.js133673476694468991 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\fetch.js133673476694711698 0
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4d7e7290.css133683040276332107 0
+73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4d7e7290.css133683048235806542 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.4d7e7290.css133679732902616372 0
 125C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.js133673476685123489 0
 100C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\history.js133673476695142602 0
@@ -192,7 +191,7 @@
 88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\lib\type\float.js133673476686149417 0
 62C:\Users\nanutta\Documents\GitHub\Rago-Components\src\index.js133682344832342301 0
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constants133673490662803186 1
-77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4d7e7290.css.map133683040276342110 0
+77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4d7e7290.css.map133683048235866548 0
 118C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\components\Elements\Elements.ts133673490661250944 0
 79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.4d7e7290.css.map133679732902626363 0
 71C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\has-flag133673476685184061 1
@@ -203,7 +202,7 @@
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\rust133673476697876667 1
 99C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\syntax\node\Operator.js133673476693896287 0
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\wasm-reference-types.js133673476697294669 0
-76C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4ece0dc4.js.map133683027192150170 0
+76C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.4ece0dc4.js.map133683048235866548 0
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\api\index.js133673476684661276 0
 78C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.4ece0dc4.js.map133679725245594160 0
 104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\type-fest\source\require-exactly-one.d.ts133673476690817569 0
@@ -216,13 +215,13 @@
 114C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\lib\lexer\match-graph.js133673476693694633 0
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\_\_using\package.json133673476694721717 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\http3.js133673476695203295 0
-72C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.975ef6c8.js133683027192180180 0
+72C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.975ef6c8.js133683048235816557 0
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.975ef6c8.js133679747426434838 0
 111C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_object_destructuring_empty.mjs133673476695183289 0
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\safe-buffer133673476685244067 1
 106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\ambient-light.js133673476690605290 0
 121C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\function\apply\apply.test.ts133673490660819299 0
-76C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.975ef6c8.js.map133683027192210925 0
+76C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.975ef6c8.js.map133683048235866548 0
 78C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.975ef6c8.js.map133679747426454843 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\HR.js133673476695162617 0
 74C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\cosmiconfig133673476691249474 1
@@ -235,26 +234,30 @@
 103C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@babel\highlight\node_modules\color-name133673476685617007 1
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\react-error-overlay\package.json133673476685857005 0
 100C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\source-map\dist\source-map.min.js.map133673476690776320 0
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.a2ff93a0.css133683027192280908 0
+73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.a2ff93a0.css133683048235806542 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.a2ff93a0.css133679725245694179 0
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\source-map\CHANGELOG.md133673476686532967 0
 83C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\posthtml-parser\dist133673476685927875 1
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\node-releases\data\release-schedule\release-schedule.json133673476685416216 0
 80C:\Users\nanutta\Documents\GitHub\Rago-Components\src\media\4th-gen-tacoma-2.png133673500107063573 0
-77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.a2ff93a0.css.map133683027192311915 0
+77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.a2ff93a0.css.map133683048235866548 0
 79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.a2ff93a0.css.map133679725245704183 0
 83C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\safe-buffer\index.js133673476684550417 0
 116C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\intersectionobserver-v2.js133673476695485547 0
 107C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\function\apply133673490660829299 1
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\src\media\F6603630801NA_Front Bumper.png133673578243738568 0
 112C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\lib\parser\sequence.js133673476693936303 0
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.e11c6efd.css133683027192260918 0
+73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.e11c6efd.css133683048235806542 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.e11c6efd.css133679725245572580 0
 107C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\fixtures\duplicate-targets133673476693683896 1
 109C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\electron-to-chromium\full-chromium-versions.js133673476684842023 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\entities\lib133673476690615298 1
-77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.e11c6efd.css.map133683027192311915 0
+77C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.e11c6efd.css.map133683048235866548 0
 79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.e11c6efd.css.map133679725245582578 0
+65C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\index.html133683048235806542 0
+67C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v1\index.html133680503573297436 0
+82C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\writer.cpp133673476692600199 0
+81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\src\windows.c133673476692286409 0
 93C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\lexer\generic.cjs133673476691592292 0
 64C:\Users\nanutta\Documents\GitHub\Rago-Components\src\index.html133683040074624976 0
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\ordered-binary\package.json133673476686129417 0
@@ -262,6 +265,12 @@
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\PN.js133673476696277882 0
 134C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeEditorsNSData.js133673476691440367 0
 89C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\term-size\vendor\.DS_Store133673476684399644 0
+85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\to-regex-range\LICENSE133673476684782032 0
+94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\MV.js133673476696017881 0
+108C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\input-selection.js133673476695454874 0
+100C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_define_property.mjs133673476695032593 0
+106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\definition-syntax\tokenizer.js133673476694128092 0
+72C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@trysound133673476677790345 1
 114C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\rect\rect.test.ts133673490662473010 0
 59C:\Users\nanutta\Documents\GitHub\Rago-Components\src\media133680540872986143 1
 85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\mdn-data\l10n\css.json133673476686109426 0
@@ -394,12 +403,6 @@
 68C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@lmdb133673524911667305 1
 93C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\type-fest\ts41\snake-case.d.ts133673476690989468 0
 72C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@mischnic133673476677709739 1
-85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\to-regex-range\LICENSE133673476684782032 0
-94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\MV.js133673476696017881 0
-108C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\input-selection.js133673476695454874 0
-100C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_define_property.mjs133673476695032593 0
-106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\definition-syntax\tokenizer.js133673476694128092 0
-72C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@trysound133673476677790345 1
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\source-map-js\lib\binary-search.js133673476685335349 0
 115C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\node_modules\css-tree\lib\parser\SyntaxError.js133673476694007196 0
 139C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\3-disjoinRuleset.js133673476685173486 0
@@ -596,7 +599,6 @@
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\dotenv-expand\README.md133673476685254068 0
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\plugins\removeHiddenElems.js133673476692206414 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\dependencies\lmdb\libraries133673476685153488 1
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\swap1.cb299834.svg133682345178717579 0
 73C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\is-extglob133673476684962023 1
 119C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\_\_is_native_reflect_construct\package.json133673476694288988 0
 70C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\is-glob133673476684972023 1
@@ -642,6 +644,7 @@
 85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\lib\clean\Rule.js133673476692398398 0
 75C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lightningcss133673476686250242 1
 81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\source-map\LICENSE133673476684832022 0
+75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\grain.eadf3dff.gif133683047775024149 0
 80C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lines-and-columns133673476685022846 1
 84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\import-fresh\index.js133673476684540417 0
 82C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\react-error-overlay133673476685927875 1
@@ -1154,9 +1157,9 @@
 92C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\entities\lib\encode-trie.d.ts133673476690544520 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\CR.js133673476692941156 0
 71C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\bin133673476684802030 1
-105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\index.ts133673490662112366 0
 88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\plugins\sortAttrs.js133673476692529314 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\GL.js133673476695032593 0
+105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\index.ts133673490662112366 0
 86C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\to-regex-range\index.js133673476684530416 0
 124C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib133673476685133484 1
 114C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts133673476690089941 0
@@ -1387,6 +1390,9 @@
 76C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\lib\svgo133673476690867566 1
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\node-addon-api\README.md133673476690311201 0
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest6.c133673476692246410 0
+84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\lib\dumper.js133673476685857005 0
+106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\node\common\feature.cjs133673476691229483 0
+105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\do-not-track.js133673476694369001 0
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133673476693061148 0
 81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\svgo\lib\svgo.d.ts133673476690615298 0
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\postcss-value-parser\lib133673476685897871 1
@@ -1673,9 +1679,6 @@
 104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\src\_to_consumable_array.mjs133673476695273286 0
 88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\cosmiconfig\dist\merge.js133673476686179423 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\regions\RE.js133673476696368650 0
-137C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeRasterImages.js133673476691743209 0
-88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\posthtml-render\readme.md133673476685426211 0
-88C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\lmdb\dependencies\lz4\lib133673476693202144 1
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\nth-check\lib\esm\compile.js.map133673476686270272 0
 98C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\_\_array_like_to_array133673476693593902 1
 132C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\has.js133673476691793217 0
@@ -2064,6 +2067,7 @@
 107C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\input-datetime.js133673476695374001 0
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\lib\type\bool.js133673476684912023 0
 139C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133673476698048126 0
+78C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.975ef6c8.js.map133683047775014148 0
 117C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\README.md133673476693161159 0
 81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\domelementtype\lib133673476686058727 1
 134C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.cmd133673476698028104 0
@@ -2421,9 +2425,6 @@
 103C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\esm\_to_consumable_array.js133673476693413907 0
 80C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\README.md133673476690968501 0
 84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\lib\common.js133673476685244067 0
-84C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\lib\dumper.js133673476685857005 0
-106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\node\common\feature.cjs133673476691229483 0
-105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\do-not-track.js133673476694369001 0
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\syntax\node\Atrule.js133673476693131146 0
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\js-yaml\lib\exception.js133673476685947878 0
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\markdown-ansi\package.json133673476685416216 0
@@ -3333,6 +3334,8 @@
 81C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\cjs\utils.cjs133673476691219481 0
 83C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\cjs\version.cjs133673476691279481 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\cosmiconfig\dist\readFile.js.map133673476691089478 0
+104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\array\empty133673490661250944 1
+87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\node133673476693081143 1
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\workers\lib\childState.js133673476685857005 0
 85C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\compressor-raw133673476685103491 1
 101C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\csso\cjs\restructure\1-mergeAtrule.cjs133673476684671283 0
@@ -3416,6 +3419,7 @@
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\tokenizer\index.js133673476693724652 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\tokenizer\types.js133673476694158088 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\tokenizer\utils.js133673476694209020 0
+56C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2133683048235151082 1
 89C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\syntax\atrule133673476694088095 1
 115C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\caniuse-lite\data\features\declarative-shadow-dom.js133673476694298990 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\events\lib\Disposable.js133673476684651276 0
@@ -3481,6 +3485,7 @@
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\lexer\index.js133673476693663919 0
 130C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\mergeStyles.js133673476690857582 0
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\lexer\Lexer.js133673476693744643 0
+75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.4d7e7290.css133683047774952531 0
 87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\dist\csstree.js133673476693413907 0
 105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\lib\definition-syntax\generate.js133673476693523901 0
 104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\node\TypeSelector.cjs133673476692971157 0
@@ -3519,8 +3524,6 @@
 138C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\cleanupEnableBackground.js133673476686139428 0
 91C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\function133673476693041144 1
 92C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\index.cjs133673476692004199 0
-104C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\array\empty133673490661250944 1
-87C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\node133673476693081143 1
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo-node.js133673476692105106 0
 106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\syntax\scope\atrulePrelude.cjs133673476685867006 0
 130C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\entities\lib\generated\decode-data-xml.d.ts133673476691833215 0
@@ -3618,6 +3621,7 @@
 72C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\core133673476686280258 1
 92C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\lexer\search.cjs133673476692730199 0
 95C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\lexer\structure.cjs133673476692850215 0
+74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.975ef6c8.js133683047774962529 0
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\utils\src\is-url.js133673476691551266 0
 102C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\utils\test\PromiseQueue.test.js133673476691943209 0
 91C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-tree\cjs\lexer\trace.cjs133673476692951147 0
@@ -3819,6 +3823,7 @@
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\dom-serializer\lib\index.d.ts.map133673476686169414 0
 127C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts133673476686351132 0
 131C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133673476685917877 0
+96C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\AC660640103_roofrack-solid.13566405.png133683047774962529 0
 110C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\fixtures\main-format-mismatch133673476693785459 1
 124C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\css-select\node_modules\dom-serializer\lib\esm\index.d.ts.map133673476686089412 0
 112C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\_\_class_name_tdz_error\package.json133673476693845472 0
@@ -4974,6 +4979,7 @@
 111C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\cjs\_class_apply_descriptor_set.cjs133673476686592959 0
 101C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\cjs\_array_with_holes.cjs133673476685365360 0
 99C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@swc\helpers\cjs\_async_iterator.cjs133673476686028727 0
+105C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\AC660650103_roof rack- light pocket.29132f7c.png133683047774962529 0
 121C:\Users\nanutta\Documents\GitHub\Rago-Components\Mosaic\media\Universal-Truck-Bed-Rack-Cargo-Rails-w-roof-top-tent-4.JPG133658881562690851 0
 89C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\diagnostic\LICENSE133673476684378932 0
 105C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\workers\src\core-worker.browser.js133673476686260254 0
@@ -5106,6 +5112,7 @@
 125C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\cleanupIDs.js133673476686210251 0
 123C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\removeClass\removeClass.ts133673490662523962 0
 118C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\remove\remove.test.ts133673490662490736 0
+95C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\F6703651001NA_FrontBumper.26a25fd3.png133683047774962529 0
 113C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\remove\remove.ts133673490662490736 0
 109C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\rect\rect.ts133673490662483050 0
 117C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\utils\dom\queryAll\queryAll.ts133673490662463887 0
@@ -5176,7 +5183,7 @@
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constructors\RequestInterval\test133673490661519810 1
 136C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constructors\RequestInterval\test\general.test.ts133673490661749933 0
 132C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constructors\EventInterface\EventInterface.ts133673490661290979 0
-90C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\4th-gen-tacoma-front-1.93438140.png133683027192078660 0
+90C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\4th-gen-tacoma-front-1.93438140.png133683048235887370 0
 119C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constructors\EventInterface\test133673490661519810 1
 135C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constructors\EventInterface\test\general.test.ts133673490661519810 0
 126C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@splidejs\splide\src\js\constructors\EventBinder\EventBinder.ts133673490661280979 0
@@ -5820,6 +5827,7 @@
 122C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\index.js133673476690887567 0
 120C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\Raw.js133673476691259477 0
 129C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax133673476693091147 1
+74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.4ece0dc4.js133683047774962529 0
 118C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\parser133673476692891143 1
 117C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\utils133673476692458395 1
 128C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\walker\create.js133673476690686310 0
@@ -6153,6 +6161,7 @@
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\lib\AdjacencyList.js133673476685163480 0
 90C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\lib\BitSet.js133673476685917877 0
 96C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\lib\ContentGraph.js133673476686169414 0
+75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.e11c6efd.css133683047774952531 0
 89C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\lib\index.js133673476690009957 0
 97C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\lib\shared-buffer.js133673476690151221 0
 89C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\graph\lib\types.js133673476690291211 0
@@ -6193,6 +6202,7 @@
 99C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\serializer.test.js133673476693192151 0
 106C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\SymbolPropagation.test.js133673476693282995 0
 102C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\TargetRequest.test.js133673476693393914 0
+92C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\4th-gen-tacoma-front-1.93438140.png133683047775034157 0
 94C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\test-utils.js133673476693393914 0
 99C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\fixtures\bundle.js133673476691219481 0
 111C:\Users\nanutta\Documents\GitHub\Rago-Components\node_modules\@parcel\core\test\fixtures\common-targets-ignore133673476693613917 1
@@ -6414,5 +6424,15 @@
 142C:\Users\nanutta\Documents\GitHub\Rago-Components\Mosaic\media\2024-Toyota-Tacoma-Bed-Side-Molle-Panels-Passenger-Side-Installed-Outdoor_4.JPG133543074331567123 0
 102C:\Users\nanutta\Documents\GitHub\Rago-Components\Mosaic\media\R0000MSPQUICK_Installed_2000x1333-5.jpg133240598732278552 0
 121C:\Users\nanutta\Documents\GitHub\Rago-Components\Mosaic\media\Universal-Truck-Bed-Rack-Cargo-Rails-w-roof-top-tent-3.JPG133658876172250037 0
-84C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\4th-gen-tacoma-2.d52765f0.png133680543873166802 0
-73C:\Users\nanutta\Documents\GitHub\Rago-Components\dist\swap2.31f44cd8.svg133682346113116349 0
+86C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\4th-gen-tacoma-1.b4010c2e.png133683047775034157 0
+96C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\F6603630801NA_Front Bumper.4a1ac18a.png133683047774962529 0
+74C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\grid.c72eeaad.png133683047774962529 0
+79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.4d7e7290.css.map133683047775004154 0
+78C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.4ece0dc4.js.map133683047775014148 0
+75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.843dac01.css133683047774952531 0
+79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.843dac01.css.map133683047775004154 0
+75C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.a2ff93a0.css133683047774952531 0
+79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.a2ff93a0.css.map133683047775014148 0
+79C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.e11c6efd.css.map133683047775004154 0
+67C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\index.html133683047774952531 0
+94C:\Users\nanutta\Documents\GitHub\Rago-Components\TVS v2\R6702350901NA_rearbumper.d62d0542.png133683047774962529 0
