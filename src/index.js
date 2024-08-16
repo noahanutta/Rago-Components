@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var vehicleSwapper = document.querySelector(".tvs-overlay-vehicle-swap .swap-button");
   var currentIsInit = true;
   var vehicleTransition = false;
+  var currentIndex = 0;
+  var imgTwoStart = -1;
   var splide = new Splide('.splide', {
     arrows: false,
     autoplay:true,
@@ -52,9 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     productLinks[slide.index].classList.add('active');
     productPointers[slide.index].classList.add('active');
+    currentIndex = slide.index;
   });
   productPointers.forEach(
     (pointer,index)=>{
+      if(pointer.dataset.vhposition == "front" && imgTwoStart == -1){
+        imgTwoStart = index;
+      }
       pointer.addEventListener('click',()=>{
         productPointers.forEach((p)=>{p.classList.remove('active')});
         pointer.classList.add('active');
@@ -81,6 +87,11 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   function vehicleSwap(){
     currentIsInit = !currentIsInit;
+    if(currentIsInit){
+      splide.go(0);
+    }else{
+      splide.go(imgTwoStart);
+    }
     vehicleContainers.forEach(
       (container)=>{
         if(container.classList.contains("active")){

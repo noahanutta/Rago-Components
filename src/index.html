@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Total Vehicle Solution</title>
-  <link rel="stylesheet"  media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://use.typekit.net/aqw1flr.css">
+  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+    href="https://use.typekit.net/aqw1flr.css">
   <noscript>
     <link rel="stylesheet" href="https://use.typekit.net/aqw1flr.css">
   </noscript>
@@ -14,6 +16,7 @@
   <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
   <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
 </head>
+
 <body>
   <section class="tvs">
     <div class="tvs-container">
@@ -29,179 +32,285 @@
           <img src="media/SVG/grid.png" alt="" class="ov-glow">
         </div>
         <div class="overlay">
-          <div class="tvs-overlay-vehicle active">
-            <img src="media/4th-gen-tacoma-1.png" alt="">
-            <div class="tvs-overlay-markers">
-              <!-- Highlight Points -->
-              <div class="tvs-marker active" style="top:33%;left: 14%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:17%;left: 56%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:15%;left: 29%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:41%;left: 78%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:73%;left: 82%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:40%;left: 44%;"><p class="indicator">+</p></div>
+          <div class="tvs-ov-vh-img-container">
+            <div class="tvs-overlay-vehicle active">
+              <img src="media/4th-gen-tacoma-1.png" alt="">
+              <div class="tvs-overlay-markers">
+                <div class="tvs-marker active" style="top:33%;left: 14%;" data-vhposition="rear">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:17%;left: 56%;" data-vhposition="rear">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:15%;left: 29%;" data-vhposition="rear">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:41%;left: 78%;" data-vhposition="rear">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:73%;left: 82%;" data-vhposition="rear">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:40%;left: 44%;" data-vhposition="rear">
+                  <p class="indicator">+</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="tvs-overlay-vehicle">
-            <img src="media/4th-gen-tacoma-front-1.png" alt="">
-            <div class="tvs-overlay-markers">
-              <!-- Highlight Points -->
-              <div class="tvs-marker active" style="top:69%;left: 34%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:10%;left: 44%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:29%;left: 67%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:10%;left: 72%;"><p class="indicator">+</p></div>
-              <div class="tvs-marker" style="top:77%;left: 60%;"><p class="indicator">+</p></div>
+          <div class="tvs-ov-vh-img-container">
+            <div class="tvs-overlay-vehicle">
+              <img src="media/4th-gen-tacoma-front-1.png" alt="">
+              <div class="tvs-overlay-markers">
+                <div class="tvs-marker" style="top:69%;left: 34%;" data-vhposition="front">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:10%;left: 44%;" data-vhposition="front">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:29%;left: 67%;" data-vhposition="front">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:10%;left: 72%;" data-vhposition="front">
+                  <p class="indicator">+</p>
+                </div>
+                <div class="tvs-marker" style="top:77%;left: 60%;" data-vhposition="front">
+                  <p class="indicator">+</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="tvs-overlay-vehicle-swap">
-            <p class="swap-button">SwapIcon</p>
+            <div class="swap-button">
+              <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390.61 338.42">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #35b4e8;
+                      fill-rule: evenodd;
+                    }
+                  </style>
+                </defs>
+                <g id="Layer_1-2">
+                  <path class="cls-1"
+                    d="M69.77,240.01l69.77-102.74h-41.89C113.17,37.9,192.53-4.38,291.3,62.99,207.75-49.35,48.98-3.4,38.82,137.27H0l69.77,102.74ZM320.84,98.41l-69.77,102.74h41.89c-15.53,99.37-94.88,141.65-193.66,74.27,83.56,112.34,242.33,66.39,252.49-74.27h38.82l-69.77-102.74Z" />
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
       <div class="tvs-selector-container">
         <div class="tvs-product">
-          <a href="#" class="product-content active">
+          <a href="#" class="product-content active" data-vhposition="rear">
             <img src="media/F6603630801NA_Front Bumper.png" alt="">
             <p class="product-title">Front Bumper</p>
             <p class="subtitle">5th Gen 4Runner</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="rear">
             <img src="media/AC660640103_roofrack-solid.png" alt="">
             <p class="product-title">Solid Roof Rack</p>
             <p class="subtitle">4th Gen Tacoma</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="rear">
             <img src="media/AC660650103_roof rack- light pocket.png" alt="">
             <p class="product-title">Cutout Roof Rack</p>
             <p class="subtitle">4th Gen Tacoma</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="rear">
             <img src="media/F6703651001NA_FrontBumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="rear">
             <img src="media/R6702350901NA_rearbumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="rear">
             <img src="media/F6603630801NA_Front Bumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="front">
             <img src="media/F6703651001NA_FrontBumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="front">
             <img src="media/F6703651001NA_FrontBumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="front">
             <img src="media/F6703651001NA_FrontBumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="front">
             <img src="media/F6703651001NA_FrontBumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
-          <a href="#" class="product-content">
+          <a href="#" class="product-content" data-vhposition="front">
             <img src="media/F6703651001NA_FrontBumper.png" alt="">
             <p class="product-title">Product Title</p>
             <p class="subtitle">Subtitle</p>
             <div class="price-and-cart">
               <p class="price">$989.98</p>
-              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
-                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To Cart</button>
-              <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id" value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5"></form>
+              <form method="post" action="/cart/add" id="product-form" accept-charset="UTF-8"
+                class="shopify-product-form" enctype="multipart/form-data" siq_id="autopick_6434"><input type="hidden"
+                  name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                <button class="rg-comp-product-submit-button" type="submit" data-varid="49980168339763">Add To
+                  Cart</button>
+                <input type="hidden" name="product-id" value="9432733385011"><input type="hidden" name="section-id"
+                  value="template--23199642779955__84574018-a1fb-44f0-a2ea-adcddef7cda5">
+              </form>
             </div>
           </a>
         </div>
         <div class="tvs-selector splide" role="group" aria-label="Product List">
           <div class="splide__track">
             <ul class="splide__list">
-              <li class="splide__slide" data-vhposition="rear"><img src="media/F6603630801NA_Front Bumper.png" alt="" class="active"></li>
-              <li class="splide__slide" data-vhposition="rear"><img src="media/AC660640103_roofrack-solid.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="rear"><img src="media/AC660650103_roof rack- light pocket.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="rear"><img src="media/F6703651001NA_FrontBumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="rear"><img src="media/R6702350901NA_rearbumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="rear"><img src="media/F6603630801NA_Front Bumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt=""></li>
-              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt=""></li>
+              <li class="splide__slide" data-vhposition="rear"><img src="media/F6603630801NA_Front Bumper.png" alt=""
+                  class="active"></li>
+              <li class="splide__slide" data-vhposition="rear"><img src="media/AC660640103_roofrack-solid.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="rear"><img src="media/AC660650103_roof rack- light pocket.png"
+                  alt=""></li>
+              <li class="splide__slide" data-vhposition="rear"><img src="media/F6703651001NA_FrontBumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="rear"><img src="media/R6702350901NA_rearbumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="rear"><img src="media/F6603630801NA_Front Bumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt="">
+              </li>
+              <li class="splide__slide" data-vhposition="front"><img src="media/F6703651001NA_FrontBumper.png" alt="">
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    
+
   </section>
   <script type="module" src="index.js"></script>
 </body>
+
 </html>
