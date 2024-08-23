@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     )
     slide.slide.querySelector('img').classList.add('active');
-    if(slide.slide.dataset.vhposition == "front" && currentIsInit){
+    if(slide.slide.dataset.vhposition == "vhTwo" && currentIsInit){
       vehicleSwap();
-    }else if(slide.slide.dataset.vhposition == "rear" && !currentIsInit){
+    }else if(slide.slide.dataset.vhposition == "vhOne" && !currentIsInit){
       vehicleSwap();
     }
     productLinks[slide.index].classList.add('active');
@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     )
     slide.slide.querySelector('img').classList.add('active');
-    if(slide.slide.dataset.vhposition == "front" && currentIsInit){
+    if(slide.slide.dataset.vhposition == "vhTwo" && currentIsInit){
       vehicleSwap();
-    }else if(slide.slide.dataset.vhposition == "rear" && !currentIsInit){
+    }else if(slide.slide.dataset.vhposition == "vhOne" && !currentIsInit){
       vehicleSwap();
     }
     productLinks[slide.index].classList.add('active');
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   productPointers.forEach(
     (pointer,index)=>{
-      if(pointer.dataset.vhposition == "front" && imgTwoStart == -1){
+      if(pointer.dataset.vhposition == "vhTwo" && imgTwoStart == -1){
         imgTwoStart = index;
       }
       pointer.addEventListener('click',()=>{

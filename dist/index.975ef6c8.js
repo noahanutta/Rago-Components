@@ -614,8 +614,8 @@ document.addEventListener("DOMContentLoaded", function() {
             productPointers[index].classList.remove("active");
         });
         slide.slide.querySelector("img").classList.add("active");
-        if (slide.slide.dataset.vhposition == "front" && currentIsInit) vehicleSwap();
-        else if (slide.slide.dataset.vhposition == "rear" && !currentIsInit) vehicleSwap();
+        if (slide.slide.dataset.vhposition == "vhTwo" && currentIsInit) vehicleSwap();
+        else if (slide.slide.dataset.vhposition == "vhOne" && !currentIsInit) vehicleSwap();
         productLinks[slide.index].classList.add("active");
         productPointers[slide.index].classList.add("active");
     });
@@ -626,14 +626,14 @@ document.addEventListener("DOMContentLoaded", function() {
             productPointers[index].classList.remove("active");
         });
         slide.slide.querySelector("img").classList.add("active");
-        if (slide.slide.dataset.vhposition == "front" && currentIsInit) vehicleSwap();
-        else if (slide.slide.dataset.vhposition == "rear" && !currentIsInit) vehicleSwap();
+        if (slide.slide.dataset.vhposition == "vhTwo" && currentIsInit) vehicleSwap();
+        else if (slide.slide.dataset.vhposition == "vhOne" && !currentIsInit) vehicleSwap();
         productLinks[slide.index].classList.add("active");
         productPointers[slide.index].classList.add("active");
         currentIndex = slide.index;
     });
     productPointers.forEach((pointer, index)=>{
-        if (pointer.dataset.vhposition == "front" && imgTwoStart == -1) imgTwoStart = index;
+        if (pointer.dataset.vhposition == "vhTwo" && imgTwoStart == -1) imgTwoStart = index;
         pointer.addEventListener("click", ()=>{
             productPointers.forEach((p)=>{
                 p.classList.remove("active");
