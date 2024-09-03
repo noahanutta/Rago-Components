@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var splideImgs = document.querySelectorAll('.splide img');
-  var productLinks = document.querySelectorAll('.tvs-product .product-content');
-  var productPointers = document.querySelectorAll('.tvs-vehicle-container .overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker');
-  var vehicleContainers = document.querySelectorAll(".tvs-vehicle-container .tvs-overlay-vehicle");
-  var vehicleSwapper = document.querySelector(".tvs-overlay-vehicle-swap .swap-button");
+  var splideImgs = document.querySelectorAll('.tvs .splide img');
+  var productLinks = document.querySelectorAll('.tvs .tvs-product .product-content');
+  var productPointers = document.querySelectorAll('.tvs .tvs-vehicle-container .tvs-overlay .tvs-overlay-vehicle .tvs-overlay-markers .tvs-marker');
+  var vehicleContainers = document.querySelectorAll(".tvs .tvs-vehicle-container .tvs-overlay-vehicle");
+  var vehicleSwapper = document.querySelector(".tvs .tvs-overlay-vehicle-swap .swap-button");
   var currentIsInit = true;
   var vehicleTransition = false;
   var currentIndex = 0;
   var imgTwoStart = -1;
-  var splide = new Splide('.splide', {
+  var splide = new Splide('.tvs .splide', {
     arrows: false,
     autoplay:true,
     focus:'center',
@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     )
     slide.slide.querySelector('img').classList.add('active');
-    if(slide.slide.dataset.vhposition == "vhTwo" && currentIsInit){
+    if(slide.slide.dataset.vhposition == "rear" && currentIsInit){
       vehicleSwap();
-    }else if(slide.slide.dataset.vhposition == "vhOne" && !currentIsInit){
+    }else if(slide.slide.dataset.vhposition == "front" && !currentIsInit){
       vehicleSwap();
     }
     productLinks[slide.index].classList.add('active');
@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     )
     slide.slide.querySelector('img').classList.add('active');
-    if(slide.slide.dataset.vhposition == "vhTwo" && currentIsInit){
+    if(slide.slide.dataset.vhposition == "rear" && currentIsInit){
       vehicleSwap();
-    }else if(slide.slide.dataset.vhposition == "vhOne" && !currentIsInit){
+    }else if(slide.slide.dataset.vhposition == "front" && !currentIsInit){
       vehicleSwap();
     }
     productLinks[slide.index].classList.add('active');
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   productPointers.forEach(
     (pointer,index)=>{
-      if(pointer.dataset.vhposition == "vhTwo" && imgTwoStart == -1){
+      if(pointer.dataset.vhposition == "rear" && imgTwoStart == -1){
         imgTwoStart = index;
       }
       pointer.addEventListener('click',()=>{
